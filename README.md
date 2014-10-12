@@ -2,7 +2,13 @@
 
 **GhostAhoy** is a [Clean Blog, Bootstrap Theme](http://startbootstrap.com/template-overviews/clean-blog/) for Ghost Theme. This is a demo theme for article [Getting started with Ghost Theme Development](http://devahoy.com) series.
 
+## Article 
 
+- [Part 1 : Overview and Setup Ghost](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part1)
+- [Part 2 : Create Theme, Index, Post](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part2)
+- [Part 3 : Default Template & Partial](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part3)
+- [Part 4 : Navigation & Pagination](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part5)
+- [Part 5 : Additional (Comment System)](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part5)
 
 ## LICENSE
 
