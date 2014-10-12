@@ -1,0 +1,22 @@
+<header class="intro-header" 
+{{#if image}}
+    style="background-image: url('{{image}}')">
+{{else}}
+    style="background-image: url('{{asset "img/home-bg.jpg"}}')">
+{{/if}}
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>{{title}}</h1><h2 class="subheading">{{excerpt words="20"}}</h2>
+
+                    <span class="meta">Posted by {{author}} on {{date format="MMMM DD, YYYY"}}</span>
+                    <span class="meta">{{tags separator=" | " prefix="Tagged in:"}}</span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

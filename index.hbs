@@ -1,0 +1,27 @@
+{{!< default}}
+
+    {{> header_index}}
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                {{#foreach posts}}
+                    <div class="post-preview">
+                        <a href="{{url}}">
+                            <h2 class="post-title">{{title}}</h2>
+                            <h3 class="post-subtitle">{{excerpt character="80"}}</h3>
+                        </a>
+                        <p classs="post-meta">Posted by {{author}} on {{date format="MMMM DD, YYYY"}}</p>
+                    </div>
+                    <hr>
+                {{/foreach}}
+                
+                {{pagination}}
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
