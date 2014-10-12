@@ -1,4 +1,10 @@
 {
 	"name": "ghostahoy",
-	"version": "0.0.1"
+	"description": "Clean Blog, Bootstrap for Ghost Theme"
+	"version": "0.0.1",
+	"author": "devahoy (http://devahoy.com)",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:Devahoy/ghostahoy.git"
+	}
 }
