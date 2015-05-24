@@ -1,0 +1,36 @@
+{{!< default}}
+
+{{> header_index}}
+
+{{#author}}
+    <section class="author-profile inner">
+        <figure class="author-image">
+            <div class="img" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Profile Image</span></div>
+        </figure>
+        <h1 class="author-title">{{name}}</h1>
+        {{#if bio}}
+            <h2 class="author-bio">{{bio}}</h2>
+        {{/if}}
+        <div class="author-meta">
+            {{#if location}}<span class="author-location"><i class="fa fa-map-marker"></i> {{location}}</span>{{/if}}
+            {{#if website}}<span class="author-link"><i class="fa fa-link"></i> <a href="{{website}}">{{website}}</a></span>{{/if}}
+            <span class="author-stats"><i class="fa fa-rss"></i> {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}</span>
+        </div>
+    </section>
+    {{#post}}
+     <div>{{name}}'s Beitraege:'</div>
+    {{#has author="{{name}}"}}
+    {{#foreach posts}}
+
+    {{/foreach}}
+    {{/has}}
+{{/post}}
+{{/author}}
+
+{{! The main content area on the homepage }}
+<main class="content" role="main">
+
+    {{! The tag below includes the post loop - partials/loop.hbs }}
+    {{> "loop"}}
+
+</main>
