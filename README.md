@@ -1,6 +1,8 @@
 ## GhostAhoy
 
-**GhostAhoy** is a [Clean Blog, Bootstrap Theme](http://startbootstrap.com/template-overviews/clean-blog/) for Ghost Theme. This is a demo theme for article [Getting started with Ghost Theme Development](http://devahoy.com) series.
+## UPDATE: This guide is extremely outdated!
+
+**GhostAhoy** is a [Clean Blog, Bootstrap Theme](http://startbootstrap.com/template-overviews/clean-blog/) for Ghost Theme. This is a demo theme for article [Getting started with Ghost Theme Development](https://devahoy.com/posts/getting-started-with-ghost-theme-development-part1/) series.
 
 ## Theme Credit
 
@@ -8,15 +10,15 @@
 
 ## Article 
 
-- [Part 1 : Overview and Setup Ghost](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part1)
-- [Part 2 : Create Theme, Index, Post](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part2)
-- [Part 3 : Default Template & Partial](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part3)
-- [Part 4 : Navigation & Pagination](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part5)
-- [Part 5 : Additional (Comment System)](http://devahoy.com/2014/10/getting-started-with-ghost-theme-development-part5)
+- [Part 1 : Overview and Setup Ghost](https://devahoy.com/posts/getting-started-with-ghost-theme-development-part1)
+- [Part 2 : Create Theme, Index, Post](https://devahoy.com/posts/getting-started-with-ghost-theme-development-part2)
+- [Part 3 : Default Template & Partial](https://devahoy.com/posts/getting-started-with-ghost-theme-development-part3)
+- [Part 4 : Navigation & Pagination](https://devahoy.com/posts/getting-started-with-ghost-theme-development-part5)
+- [Part 5 : Additional (Comment System)](https://devahoy.com/posts/getting-started-with-ghost-theme-development-part5)
 
 ## LICENSE
 
-Copyright (c) 2014 Devahoy (http://devahoy.com) - Released under The MIT License.
+Copyright (c) 2014 Devahoy (https://devahoy.com) - Released under The MIT License.
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
